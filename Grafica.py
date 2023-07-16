@@ -46,12 +46,6 @@ class modelado:
         for i in range(10):
             
             print("prediccion {} -----> esperado {}".format(np.round(self.prediccion[i]),self.y[i]))
-m=modelado()
-m.build_red()
-m.compiler()
-m.ajustar_modelo()
-m.evaluar_modelo()
-m.predicciones()
 
     
           
